@@ -6,6 +6,6 @@
  * Return: n
  */
 void return_to_98(int *n);
-(
-	*n = 98
-	)
+{
+	*n = 98;
+}	
