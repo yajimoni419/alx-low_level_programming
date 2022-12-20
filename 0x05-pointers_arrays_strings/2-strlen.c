@@ -5,12 +5,12 @@
  * @s: string
  * Return: length
  */
-int *strlen(char *s);
+int _strlen(char *s)
 {
 	int len = 0;
 
 
-	while (*s != '\o')
+	while (*s != '\0')
 	{
 		len++;
 		s++;
