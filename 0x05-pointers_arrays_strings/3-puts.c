@@ -4,7 +4,7 @@
  * _puts - prints a string
  * @str: string to be printed
  */
-void _putchar(char *str) /* _putchar is to be used */
+void _puts(char *str) /* _putchar is to be used */
 {
 	while (*str != '\0')
 	{
