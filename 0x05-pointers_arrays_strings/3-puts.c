@@ -5,7 +5,7 @@
  * _puts - prints a string
  * @str: string to be printed
  */
-void _puts(char *str); /* This is my declearation */
+void _puts(char *str) /* This is my declearation */
 {
 	while (*str != '\0')
 	{
