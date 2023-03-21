@@ -2,14 +2,22 @@
 
 /**
  * print_alphabet_x10 - print 10 times the alphabet, in lowercase
+ *
+ * Return: always 0 (success)
  */
 
-void print_alphabet_x10(void);
-{
-	int count = 0;
-	char lettter;
+void print_alphabet_x10(void)
 
-	while (count++ <= 9)
-	for (letter = 'a'; letter <= 'z; letter++)
-		_putchar(letter);
-	_putchar('/n')
+{
+	int i = 0;
+	char l;
+	
+	for (i = 1 ; i <= 10 ; i++)
+	{
+		
+	for (l = 'a'; l <= 'z' ; l++)
+		_putchar(l);
+	
+	_putchar('\n');
+	}
+}
