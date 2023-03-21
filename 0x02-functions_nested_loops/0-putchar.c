@@ -1,8 +1,10 @@
-#include <main.h>
+#include "main.h"
 
 /**
- *  main - print putchar
+ *  main - print putchar and runs the code in loop
+ *
  *  written by yajimoni419
+ *
  *  Return: 0
  */
 
