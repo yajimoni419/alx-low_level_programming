@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- * _isupper - print 1 if letter is in uppercase
+ * _isupper - define if a character is uppercase
  *
- * @c: character to be printed
- *
- * Return: 1 or 0
+ * Description: Prints the alphabet with _putchar
+ * @c: charater
+ * Return: void
  */
 
 int _isupper(int c)
